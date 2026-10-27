@@ -1,5 +1,5 @@
 # Declare a variable to count the current number of iterations
-iterations = 0
+iterations = 8
 
 # Display ready message
 print("Starting iterations...")
@@ -8,6 +8,7 @@ print("Starting iterations...")
 while iterations < 10:
     # Update the current iteration count
     iterations = iterations + 1
+    print("Iteration: ", iterations)
 
 # Display completion message
 print(f"Completed {iterations}!")
